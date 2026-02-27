@@ -1,0 +1,22 @@
+{
+  "name": "Payment Apps - 8 Cross-Platform Applications",
+  "version": "1.0.0",
+  "description": "Multi-platform payment applications (Android + iOS) with MFA security",
+  "iOS": {
+    "deploymentTarget": "14.0",
+    "swift": "5.5",
+    "xcode": "13.0+"
+  },
+  "Android": {
+    "minSdk": 21,
+    "targetSdk": 33,
+    "compileSdk": 33,
+    "gradle": "8.0.0",
+    "kotlin": "1.8.0"
+  },
+  "features": {
+    "authentication": ["Password", "OTP", "Biometric", "SessionTimeout"],
+    "security": ["Encryption", "AccountLockout", "FailureTracking"],
+    "payments": ["Transfer", "BillPayment", "TransactionHistory"]
+  }
+}
